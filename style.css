@@ -75,3 +75,18 @@ body {
   background-color: rgb(170, 250, 250);
   transform: translateY(1px);
 }
+
+@media (max-width: 1600px) {
+  .main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 910px;
+    height: 1410px;
+    padding: 10px;
+    background-color: rgb(149, 164, 163);
+    position: absolute;
+    top: 8%;
+    left: 1%;
+    border-radius: 20px;
+  }
+}
